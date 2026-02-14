@@ -1,0 +1,97 @@
+{
+    "metadata": {
+        "title": "InvitaCon - Gonbidapen Digitalak",
+        "description": "Sortu, pertsonalizatu eta partekatu gonbidapen digital bereziak zure ekitaldietarako"
+    },
+    "header": {
+        "brand": "InvitaCon",
+        "nav": {
+            "templates": "Txantiloiak",
+            "howItWorks": "Nola Funtzionatzen Du",
+            "pricing": "Prezioak",
+            "login": "Saioa Hasi",
+            "getStarted": "Hasi"
+        }
+    },
+    "hero": {
+        "badge": "✨ Maitemintzen duten gonbidapenak",
+        "title": "Aztarna uzten duten gonbidapen digitalak",
+        "subtitle": "Diseinatu gonbidapen dotoreak eztegietarako, bataioentzako eta ospakizunetarako. Pertsonalizatu, ordaindu eta partekatu esteka bakar batekin.",
+        "cta": "Nire gonbidapena sortu",
+        "ctaSecondary": "Txantiloiak ikusi",
+        "stats": {
+            "invitations": "Sortutako gonbidapenak",
+            "events": "Ospatutako ekitaldiak",
+            "satisfaction": "Gogobetetasuna"
+        }
+    },
+    "howItWorks": {
+        "title": "Hain erraza da",
+        "subtitle": "Hiru urrats sinpletan izango duzu zure gonbidapena partekatzeko prest.",
+        "steps": {
+            "choose": {
+                "title": "1. Aukeratu txantiloia",
+                "description": "Aukeratu gure diseinu profesionalen artean eztegietarako, bataioentzako, jaunartzeetarako eta gehiago."
+            },
+            "customize": {
+                "title": "2. Pertsonalizatu",
+                "description": "Gehitu zure testuak, argazkiak, koloreak eta tipografiak. Denbora errealeko aurrebista."
+            },
+            "share": {
+                "title": "3. Argitaratu eta partekatu",
+                "description": "Ordaindu behin bakarrik eta lortu esteka bakarra WhatsApp, posta elektroniko edo sare sozialen bidez partekatzeko."
+            }
+        }
+    },
+    "templates": {
+        "title": "Txantiloiak okasio guztietarako",
+        "subtitle": "Diseinu dotoreak eta profesionalak pertsonalizatzeko prest.",
+        "categories": {
+            "all": "Guztiak",
+            "wedding": "Eztegiak",
+            "baptism": "Bataioak",
+            "communion": "Jaunartzeak",
+            "party": "Festak"
+        },
+        "cta": "Txantiloi hau erabili"
+    },
+    "pricing": {
+        "title": "Sinplea eta gardena",
+        "subtitle": "Diseinatu doan. Ordaindu argitaratzeko prest zaudenean bakarrik.",
+        "card": {
+            "title": "Gonbidapen Digitala",
+            "price": "14,99 €",
+            "period": "ordainketa bakarra",
+            "features": {
+                "design": "Diseinu profesional pertsonalizagarria",
+                "url": "URL bakarra partekatzeko",
+                "rsvp": "Berrespenen kudeaketa (RSVP)",
+                "responsive": "Mugikorrerako optimizatua",
+                "og": "Sare sozialetarako aurrebista",
+                "support": "Posta elektronikozko laguntza"
+            },
+            "cta": "Nire gonbidapena doan sortu"
+        }
+    },
+    "footer": {
+        "brand": "InvitaCon",
+        "tagline": "Gonbidapen digitalak une berezietarako.",
+        "links": {
+            "product": "Produktua",
+            "templates": "Txantiloiak",
+            "pricing": "Prezioak",
+            "examples": "Adibideak",
+            "legal": "Legala",
+            "privacy": "Pribatutasuna",
+            "terms": "Baldintzak",
+            "contact": "Kontaktua"
+        },
+        "copyright": "© 2026 InvitaCon. Eskubide guztiak erreserbatuta."
+    },
+    "languageSwitcher": {
+        "label": "Hizkuntza",
+        "es": "Español",
+        "en": "English",
+        "eu": "Euskara"
+    }
+}

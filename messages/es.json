@@ -1,0 +1,97 @@
+{
+  "metadata": {
+    "title": "InvitaCon - Invitaciones Digitales",
+    "description": "Crea, personaliza y comparte invitaciones digitales únicas para tus eventos"
+  },
+  "header": {
+    "brand": "InvitaCon",
+    "nav": {
+      "templates": "Plantillas",
+      "howItWorks": "Cómo Funciona",
+      "pricing": "Precios",
+      "login": "Iniciar Sesión",
+      "getStarted": "Empezar"
+    }
+  },
+  "hero": {
+    "badge": "✨ Invitaciones que enamoran",
+    "title": "Invitaciones digitales que dejan huella",
+    "subtitle": "Diseña invitaciones elegantes para bodas, bautizos y celebraciones. Personaliza, paga y comparte con un enlace único.",
+    "cta": "Crear mi invitación",
+    "ctaSecondary": "Ver plantillas",
+    "stats": {
+      "invitations": "Invitaciones creadas",
+      "events": "Eventos celebrados",
+      "satisfaction": "Satisfacción"
+    }
+  },
+  "howItWorks": {
+    "title": "Así de fácil",
+    "subtitle": "En tres simples pasos tendrás tu invitación lista para compartir.",
+    "steps": {
+      "choose": {
+        "title": "1. Elige tu plantilla",
+        "description": "Selecciona entre nuestros diseños profesionales para bodas, bautizos, comuniones y más."
+      },
+      "customize": {
+        "title": "2. Personaliza",
+        "description": "Añade tus textos, fotos, colores y tipografías. Vista previa en tiempo real."
+      },
+      "share": {
+        "title": "3. Publica y comparte",
+        "description": "Paga una sola vez y obtén tu enlace único para compartir por WhatsApp, email o redes."
+      }
+    }
+  },
+  "templates": {
+    "title": "Plantillas para cada ocasión",
+    "subtitle": "Diseños elegantes y profesionales listos para personalizar.",
+    "categories": {
+      "all": "Todas",
+      "wedding": "Bodas",
+      "baptism": "Bautizos",
+      "communion": "Comuniones",
+      "party": "Fiestas"
+    },
+    "cta": "Usar esta plantilla"
+  },
+  "pricing": {
+    "title": "Simple y transparente",
+    "subtitle": "Diseña gratis. Paga solo cuando estés listo para publicar.",
+    "card": {
+      "title": "Invitación Digital",
+      "price": "14,99 €",
+      "period": "pago único",
+      "features": {
+        "design": "Diseño profesional personalizable",
+        "url": "URL única para compartir",
+        "rsvp": "Gestión de confirmaciones (RSVP)",
+        "responsive": "Optimizado para móvil",
+        "og": "Vista previa para redes sociales",
+        "support": "Soporte por email"
+      },
+      "cta": "Crear mi invitación gratis"
+    }
+  },
+  "footer": {
+    "brand": "InvitaCon",
+    "tagline": "Invitaciones digitales para momentos únicos.",
+    "links": {
+      "product": "Producto",
+      "templates": "Plantillas",
+      "pricing": "Precios",
+      "examples": "Ejemplos",
+      "legal": "Legal",
+      "privacy": "Privacidad",
+      "terms": "Términos",
+      "contact": "Contacto"
+    },
+    "copyright": "© 2026 InvitaCon. Todos los derechos reservados."
+  },
+  "languageSwitcher": {
+    "label": "Idioma",
+    "es": "Español",
+    "en": "English",
+    "eu": "Euskara"
+  }
+}

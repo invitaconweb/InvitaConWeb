@@ -1,0 +1,97 @@
+{
+    "metadata": {
+        "title": "InvitaCon - Digital Invitations",
+        "description": "Create, customize and share unique digital invitations for your events"
+    },
+    "header": {
+        "brand": "InvitaCon",
+        "nav": {
+            "templates": "Templates",
+            "howItWorks": "How It Works",
+            "pricing": "Pricing",
+            "login": "Log In",
+            "getStarted": "Get Started"
+        }
+    },
+    "hero": {
+        "badge": "✨ Invitations that inspire",
+        "title": "Digital invitations that leave a mark",
+        "subtitle": "Design elegant invitations for weddings, baptisms and celebrations. Customize, pay and share with a unique link.",
+        "cta": "Create my invitation",
+        "ctaSecondary": "View templates",
+        "stats": {
+            "invitations": "Invitations created",
+            "events": "Events celebrated",
+            "satisfaction": "Satisfaction"
+        }
+    },
+    "howItWorks": {
+        "title": "It's that easy",
+        "subtitle": "In three simple steps you'll have your invitation ready to share.",
+        "steps": {
+            "choose": {
+                "title": "1. Choose your template",
+                "description": "Select from our professional designs for weddings, baptisms, communions and more."
+            },
+            "customize": {
+                "title": "2. Customize",
+                "description": "Add your texts, photos, colors and fonts. Real-time preview included."
+            },
+            "share": {
+                "title": "3. Publish and share",
+                "description": "Pay once and get your unique link to share via WhatsApp, email or social media."
+            }
+        }
+    },
+    "templates": {
+        "title": "Templates for every occasion",
+        "subtitle": "Elegant and professional designs ready to customize.",
+        "categories": {
+            "all": "All",
+            "wedding": "Weddings",
+            "baptism": "Baptisms",
+            "communion": "Communions",
+            "party": "Parties"
+        },
+        "cta": "Use this template"
+    },
+    "pricing": {
+        "title": "Simple and transparent",
+        "subtitle": "Design for free. Pay only when you're ready to publish.",
+        "card": {
+            "title": "Digital Invitation",
+            "price": "€14.99",
+            "period": "one-time payment",
+            "features": {
+                "design": "Customizable professional design",
+                "url": "Unique shareable URL",
+                "rsvp": "RSVP management",
+                "responsive": "Mobile optimized",
+                "og": "Social media preview",
+                "support": "Email support"
+            },
+            "cta": "Create my invitation for free"
+        }
+    },
+    "footer": {
+        "brand": "InvitaCon",
+        "tagline": "Digital invitations for unique moments.",
+        "links": {
+            "product": "Product",
+            "templates": "Templates",
+            "pricing": "Pricing",
+            "examples": "Examples",
+            "legal": "Legal",
+            "privacy": "Privacy",
+            "terms": "Terms",
+            "contact": "Contact"
+        },
+        "copyright": "© 2026 InvitaCon. All rights reserved."
+    },
+    "languageSwitcher": {
+        "label": "Language",
+        "es": "Español",
+        "en": "English",
+        "eu": "Euskara"
+    }
+}
