@@ -93,5 +93,104 @@
         "es": "Español",
         "en": "English",
         "eu": "Euskara"
+    },
+    "auth": {
+        "login": {
+            "title": "Log In",
+            "subtitle": "Access your account to manage your invitations",
+            "cta": "Log In",
+            "noAccount": "Don't have an account?",
+            "signupLink": "Sign up"
+        },
+        "signup": {
+            "title": "Create Account",
+            "subtitle": "Sign up to start creating your invitations",
+            "cta": "Create Account",
+            "hasAccount": "Already have an account?",
+            "loginLink": "Log in"
+        },
+        "fields": {
+            "email": "Email",
+            "emailPlaceholder": "you@email.com",
+            "password": "Password",
+            "passwordPlaceholder": "••••••••",
+            "fullName": "Full Name",
+            "fullNamePlaceholder": "Your name"
+        }
+    },
+    "dashboard": {
+        "title": "My Invitations",
+        "subtitle": "Manage and create your digital invitations",
+        "createNew": "Create Invitation",
+        "noInvitations": "No invitations yet",
+        "noInvitationsDesc": "Create your first digital invitation",
+        "edit": "Edit",
+        "delete": "Delete",
+        "draft": "Draft",
+        "paid": "Published",
+        "confirmDelete": "Are you sure you want to delete this invitation?",
+        "cancel": "Cancel",
+        "signOut": "Sign Out"
+    },
+    "editor": {
+        "save": "Save",
+        "saving": "Saving...",
+        "saved": "Saved",
+        "unsaved": "Unsaved",
+        "back": "Back",
+        "preview": "Preview",
+        "tabs": {
+            "general": "General",
+            "content": "Content",
+            "design": "Design",
+            "media": "Media"
+        },
+        "general": {
+            "eventTitle": "Event Title",
+            "eventTitlePlaceholder": "E.g.: Ana & Luis",
+            "subtitle": "Subtitle",
+            "subtitlePlaceholder": "E.g.: We're getting married!",
+            "eventDate": "Event Date",
+            "ceremonyTitle": "Ceremony",
+            "ceremonyTime": "Time",
+            "ceremonyLocation": "Venue",
+            "ceremonyMapUrl": "Map link",
+            "receptionTitle": "Reception",
+            "receptionTime": "Time",
+            "receptionLocation": "Venue",
+            "receptionMapUrl": "Map link"
+        },
+        "content": {
+            "storyTitle": "Story Title",
+            "storyTitlePlaceholder": "E.g.: Our Story",
+            "storyText": "Text",
+            "storyTextPlaceholder": "Tell your guests your story...",
+            "rsvpEnabled": "RSVP Enabled",
+            "rsvpDeadline": "RSVP Deadline",
+            "rsvpPlusOnes": "Allow plus-ones",
+            "rsvpDietary": "Ask dietary preferences"
+        },
+        "design": {
+            "colorPalette": "Color Palette",
+            "fontFamily": "Font Family",
+            "accentColor": "Accent Color"
+        },
+        "media": {
+            "coverImage": "Cover Image",
+            "gallery": "Photo Gallery",
+            "uploadImage": "Upload image",
+            "removeImage": "Remove",
+            "dragDrop": "Drag an image or click to upload"
+        }
+    },
+    "publicView": {
+        "rsvpButton": "Confirm Attendance",
+        "addToCalendar": "Add to Calendar",
+        "navigate": "Get Directions",
+        "ceremony": "Ceremony",
+        "reception": "Reception",
+        "viewOnMap": "View on map",
+        "poweredBy": "Created with",
+        "gallery": "Gallery"
     }
 }

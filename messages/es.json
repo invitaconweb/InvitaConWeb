@@ -93,5 +93,104 @@
     "es": "Español",
     "en": "English",
     "eu": "Euskara"
+  },
+  "auth": {
+    "login": {
+      "title": "Iniciar Sesión",
+      "subtitle": "Accede a tu cuenta para gestionar tus invitaciones",
+      "cta": "Iniciar Sesión",
+      "noAccount": "¿No tienes cuenta?",
+      "signupLink": "Regístrate"
+    },
+    "signup": {
+      "title": "Crear Cuenta",
+      "subtitle": "Regístrate para empezar a crear tus invitaciones",
+      "cta": "Crear Cuenta",
+      "hasAccount": "¿Ya tienes cuenta?",
+      "loginLink": "Inicia sesión"
+    },
+    "fields": {
+      "email": "Correo Electrónico",
+      "emailPlaceholder": "tu@email.com",
+      "password": "Contraseña",
+      "passwordPlaceholder": "••••••••",
+      "fullName": "Nombre Completo",
+      "fullNamePlaceholder": "Tu nombre"
+    }
+  },
+  "dashboard": {
+    "title": "Mis Invitaciones",
+    "subtitle": "Gestiona y crea tus invitaciones digitales",
+    "createNew": "Crear Invitación",
+    "noInvitations": "Sin invitaciones",
+    "noInvitationsDesc": "Crea tu primera invitación digital",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "draft": "Borrador",
+    "paid": "Publicada",
+    "confirmDelete": "¿Estás seguro de que quieres eliminar esta invitación?",
+    "cancel": "Cancelar",
+    "signOut": "Cerrar Sesión"
+  },
+  "editor": {
+    "save": "Guardar",
+    "saving": "Guardando...",
+    "saved": "Guardado",
+    "unsaved": "Sin guardar",
+    "back": "Volver",
+    "preview": "Vista previa",
+    "tabs": {
+      "general": "General",
+      "content": "Contenido",
+      "design": "Diseño",
+      "media": "Medios"
+    },
+    "general": {
+      "eventTitle": "Título del Evento",
+      "eventTitlePlaceholder": "Ej: Ana & Luis",
+      "subtitle": "Subtítulo",
+      "subtitlePlaceholder": "Ej: ¡Nos casamos!",
+      "eventDate": "Fecha del Evento",
+      "ceremonyTitle": "Ceremonia",
+      "ceremonyTime": "Hora",
+      "ceremonyLocation": "Lugar",
+      "ceremonyMapUrl": "Enlace al mapa",
+      "receptionTitle": "Celebración",
+      "receptionTime": "Hora",
+      "receptionLocation": "Lugar",
+      "receptionMapUrl": "Enlace al mapa"
+    },
+    "content": {
+      "storyTitle": "Título de la Historia",
+      "storyTitlePlaceholder": "Ej: Nuestra Historia",
+      "storyText": "Texto",
+      "storyTextPlaceholder": "Cuéntale a tus invitados vuestra historia...",
+      "rsvpEnabled": "RSVP Activo",
+      "rsvpDeadline": "Fecha límite RSVP",
+      "rsvpPlusOnes": "Permitir acompañantes",
+      "rsvpDietary": "Preguntar preferencias alimentarias"
+    },
+    "design": {
+      "colorPalette": "Paleta de Colores",
+      "fontFamily": "Tipografía",
+      "accentColor": "Color de Acento"
+    },
+    "media": {
+      "coverImage": "Imagen de Portada",
+      "gallery": "Galería de Fotos",
+      "uploadImage": "Subir imagen",
+      "removeImage": "Eliminar",
+      "dragDrop": "Arrastra una imagen o haz clic para subir"
+    }
+  },
+  "publicView": {
+    "rsvpButton": "Confirmar Asistencia",
+    "addToCalendar": "Añadir al Calendario",
+    "navigate": "Cómo Llegar",
+    "ceremony": "Ceremonia",
+    "reception": "Celebración",
+    "viewOnMap": "Ver en mapa",
+    "poweredBy": "Creado con",
+    "gallery": "Galería"
   }
 }

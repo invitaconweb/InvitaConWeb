@@ -47,10 +47,12 @@ export function Header() {
                 {/* Desktop Actions */}
                 <div className="hidden items-center gap-3 md:flex">
                     <LanguageSwitcher />
-                    <Button variant="ghost" size="sm">
-                        {t("nav.login")}
+                    <Button variant="ghost" size="sm" asChild>
+                        <Link href="/auth/login">{t("nav.login")}</Link>
                     </Button>
-                    <Button size="sm">{t("nav.getStarted")}</Button>
+                    <Button size="sm" asChild>
+                        <Link href="/auth/signup">{t("nav.getStarted")}</Link>
+                    </Button>
                 </div>
 
                 {/* Mobile Menu Toggle */}

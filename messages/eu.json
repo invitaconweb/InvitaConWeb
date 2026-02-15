@@ -93,5 +93,104 @@
         "es": "Español",
         "en": "English",
         "eu": "Euskara"
+    },
+    "auth": {
+        "login": {
+            "title": "Saioa Hasi",
+            "subtitle": "Sartu zure kontuan gonbidapenak kudeatzeko",
+            "cta": "Saioa Hasi",
+            "noAccount": "Ez duzu konturik?",
+            "signupLink": "Erregistratu"
+        },
+        "signup": {
+            "title": "Kontua Sortu",
+            "subtitle": "Erregistratu zure gonbidapenak sortzen hasteko",
+            "cta": "Kontua Sortu",
+            "hasAccount": "Kontua baduzu dagoeneko?",
+            "loginLink": "Saioa hasi"
+        },
+        "fields": {
+            "email": "Posta Elektronikoa",
+            "emailPlaceholder": "zu@email.com",
+            "password": "Pasahitza",
+            "passwordPlaceholder": "••••••••",
+            "fullName": "Izen Osoa",
+            "fullNamePlaceholder": "Zure izena"
+        }
+    },
+    "dashboard": {
+        "title": "Nire Gonbidapenak",
+        "subtitle": "Kudeatu eta sortu zure gonbidapen digitalak",
+        "createNew": "Gonbidapena Sortu",
+        "noInvitations": "Gonbidapenik ez",
+        "noInvitationsDesc": "Sortu zure lehen gonbidapen digitala",
+        "edit": "Editatu",
+        "delete": "Ezabatu",
+        "draft": "Zirriborroa",
+        "paid": "Argitaratua",
+        "confirmDelete": "Ziur zaude gonbidapen hau ezabatu nahi duzula?",
+        "cancel": "Utzi",
+        "signOut": "Saioa Itxi"
+    },
+    "editor": {
+        "save": "Gorde",
+        "saving": "Gordetzen...",
+        "saved": "Gordeta",
+        "unsaved": "Gorde gabe",
+        "back": "Atzera",
+        "preview": "Aurrebista",
+        "tabs": {
+            "general": "Orokorra",
+            "content": "Edukia",
+            "design": "Diseinua",
+            "media": "Multimedia"
+        },
+        "general": {
+            "eventTitle": "Ekitaldiaren Izenburua",
+            "eventTitlePlaceholder": "Adib.: Ana & Luis",
+            "subtitle": "Azpititulua",
+            "subtitlePlaceholder": "Adib.: Ezkondu egingo gara!",
+            "eventDate": "Ekitaldiaren Data",
+            "ceremonyTitle": "Zeremonia",
+            "ceremonyTime": "Ordua",
+            "ceremonyLocation": "Tokia",
+            "ceremonyMapUrl": "Maparen esteka",
+            "receptionTitle": "Ospakizuna",
+            "receptionTime": "Ordua",
+            "receptionLocation": "Tokia",
+            "receptionMapUrl": "Maparen esteka"
+        },
+        "content": {
+            "storyTitle": "Istoriaren Izenburua",
+            "storyTitlePlaceholder": "Adib.: Gure Istorioa",
+            "storyText": "Testua",
+            "storyTextPlaceholder": "Kontatu zure gonbidatuei zuen istorioa...",
+            "rsvpEnabled": "RSVP Aktibo",
+            "rsvpDeadline": "RSVP Muga-data",
+            "rsvpPlusOnes": "Laguntzaileak baimendu",
+            "rsvpDietary": "Dieta-lehentasunak galdetu"
+        },
+        "design": {
+            "colorPalette": "Kolore Paleta",
+            "fontFamily": "Tipografia",
+            "accentColor": "Azentzu Kolorea"
+        },
+        "media": {
+            "coverImage": "Azaleko Irudia",
+            "gallery": "Argazki Galeria",
+            "uploadImage": "Irudia igo",
+            "removeImage": "Kendu",
+            "dragDrop": "Arrastatu irudi bat edo egin klik igotzeko"
+        }
+    },
+    "publicView": {
+        "rsvpButton": "Bertaratzea Berretsi",
+        "addToCalendar": "Egutegira Gehitu",
+        "navigate": "Nola Iritsi",
+        "ceremony": "Zeremonia",
+        "reception": "Ospakizuna",
+        "viewOnMap": "Mapan ikusi",
+        "poweredBy": "Honekin sortua",
+        "gallery": "Galeria"
     }
 }
