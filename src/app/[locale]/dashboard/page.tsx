@@ -40,6 +40,7 @@ export default async function DashboardPage({ params }: PageProps) {
                 draft: t("draft"),
                 paid: t("paid"),
                 confirmDelete: t("confirmDelete"),
+                guests: t("guests"),
                 cancel: t("cancel"),
                 signOut: t("signOut"),
             }}

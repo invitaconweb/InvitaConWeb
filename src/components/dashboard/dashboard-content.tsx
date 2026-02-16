@@ -21,6 +21,7 @@ import {
     Sparkles,
     CalendarDays,
     LogOut,
+    Users,
 } from "lucide-react";
 import type { Invitation } from "@/types";
 import { createInvitation, deleteInvitation } from "@/actions/invitations";
@@ -41,6 +42,7 @@ interface DashboardContentProps {
         draft: string;
         paid: string;
         confirmDelete: string;
+        guests: string;
         cancel: string;
         signOut: string;
     };
@@ -157,6 +159,12 @@ export function DashboardContent({
                                             <Link href={`/dashboard/${inv.id}/edit`}>
                                                 <Pencil className="mr-1 h-3 w-3" />
                                                 {t.edit}
+                                            </Link>
+                                        </Button>
+                                        <Button size="sm" variant="outline" asChild>
+                                            <Link href={`/dashboard/${inv.id}/guests`}>
+                                                <Users className="mr-1 h-3 w-3" />
+                                                {t.guests}
                                             </Link>
                                         </Button>
                                         <Button
