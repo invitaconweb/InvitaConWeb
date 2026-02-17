@@ -130,6 +130,9 @@
     "paid": "Publicada",
     "confirmDelete": "¿Estás seguro de que quieres eliminar esta invitación?",
     "guests": "Invitados",
+    "publish": "Publicar (9,99€)",
+    "publishing": "Conectando...",
+    "view": "Ver Invitación",
     "cancel": "Cancelar",
     "signOut": "Cerrar Sesión"
   },

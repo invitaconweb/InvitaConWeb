@@ -130,6 +130,9 @@
         "paid": "Published",
         "confirmDelete": "Are you sure you want to delete this invitation?",
         "guests": "Guests",
+        "publish": "Publish (€9.99)",
+        "publishing": "Connecting...",
+        "view": "View Invitation",
         "cancel": "Cancel",
         "signOut": "Sign Out"
     },

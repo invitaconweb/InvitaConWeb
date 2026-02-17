@@ -22,7 +22,11 @@ import {
     CalendarDays,
     LogOut,
     Users,
+    CreditCard,
+    ExternalLink,
+    Loader2,
 } from "lucide-react";
+import { createCheckoutSession } from "@/actions/payments";
 import type { Invitation } from "@/types";
 import { createInvitation, deleteInvitation } from "@/actions/invitations";
 import { signOut } from "@/actions/auth";
@@ -31,6 +35,7 @@ import { Link } from "@/i18n/navigation";
 interface DashboardContentProps {
     invitations: Invitation[];
     userName: string;
+    locale: string;
     translations: {
         title: string;
         subtitle: string;
@@ -43,6 +48,9 @@ interface DashboardContentProps {
         paid: string;
         confirmDelete: string;
         guests: string;
+        publish: string;
+        publishing: string;
+        view: string;
         cancel: string;
         signOut: string;
     };
@@ -51,6 +59,7 @@ interface DashboardContentProps {
 export function DashboardContent({
     invitations,
     userName,
+    locale,
     translations: t,
 }: DashboardContentProps) {
     const router = useRouter();
@@ -58,6 +67,7 @@ export function DashboardContent({
     const [showDelete, setShowDelete] = useState<string | null>(null);
     const [newTitle, setNewTitle] = useState("");
     const [loading, setLoading] = useState(false);
+    const [publishingId, setPublishingId] = useState<string | null>(null);
 
     async function handleCreate() {
         if (!newTitle.trim()) return;
@@ -77,6 +87,13 @@ export function DashboardContent({
         setShowDelete(null);
         setLoading(false);
         router.refresh();
+    }
+
+    async function handlePublish(id: string) {
+        setPublishingId(id);
+        await createCheckoutSession(id, locale);
+        // Redirect happens in server action, but if it fails/returns:
+        setPublishingId(null);
     }
 
     return (
@@ -167,6 +184,28 @@ export function DashboardContent({
                                                 {t.guests}
                                             </Link>
                                         </Button>
+                                        {inv.status === "draft" ? (
+                                            <Button
+                                                size="sm"
+                                                className="bg-green-600 hover:bg-green-700 text-white"
+                                                onClick={() => handlePublish(inv.id)}
+                                                disabled={publishingId === inv.id}
+                                            >
+                                                {publishingId === inv.id ? (
+                                                    <Loader2 className="mr-1 h-3 w-3 animate-spin" />
+                                                ) : (
+                                                    <CreditCard className="mr-1 h-3 w-3" />
+                                                )}
+                                                {publishingId === inv.id ? t.publishing : t.publish}
+                                            </Button>
+                                        ) : (
+                                            <Button size="sm" variant="default" asChild>
+                                                <Link href={`/p/${inv.slug}`} target="_blank">
+                                                    <ExternalLink className="mr-1 h-3 w-3" />
+                                                    {t.view}
+                                                </Link>
+                                            </Button>
+                                        )}
                                         <Button
                                             size="sm"
                                             variant="ghost"

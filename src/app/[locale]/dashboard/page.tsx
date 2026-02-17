@@ -29,6 +29,7 @@ export default async function DashboardPage({ params }: PageProps) {
         <DashboardContent
             invitations={invitations}
             userName={user.user_metadata?.full_name || user.email || ""}
+            locale={locale}
             translations={{
                 title: t("title"),
                 subtitle: t("subtitle"),
@@ -41,6 +42,9 @@ export default async function DashboardPage({ params }: PageProps) {
                 paid: t("paid"),
                 confirmDelete: t("confirmDelete"),
                 guests: t("guests"),
+                publish: t("publish"),
+                publishing: t("publishing"),
+                view: t("view"),
                 cancel: t("cancel"),
                 signOut: t("signOut"),
             }}

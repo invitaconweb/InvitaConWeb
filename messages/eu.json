@@ -130,6 +130,9 @@
         "paid": "Argitaratua",
         "confirmDelete": "Ziur zaude gonbidapen hau ezabatu nahi duzula?",
         "guests": "Gonbidatuak",
+        "publish": "Argitaratu (9,99€)",
+        "publishing": "Konektatzen...",
+        "view": "Ikusi Gonbidapena",
         "cancel": "Utzi",
         "signOut": "Saioa Itxi"
     },
